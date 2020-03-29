@@ -1,0 +1,29 @@
+<html>
+	<head>
+
+<!--
+OBS: No Internet Explorer não permite usar botão direito do mouse nem selecionar conteúdo,
+no Mozilla Firefox e o Google Chrome não permite usar botão direito, apenas selecionar conteúdo.
+-->
+		<script language=JavaScript>
+			<!--
+			var mensagem="Conteúdo Bloqueador!";
+			function clickIE() {if (document.all) {(mensagem);return false;}}
+			function clickNS(e) {if
+			(document.layers||(document.getElementById&&!document.all)) {
+			if (e.which==2||e.which==3) {(mensagem);return false;}}}
+			if (document.layers)
+			{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+			else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+			document.oncontextmenu=new Function("return false")
+			//-->
+		</script>
+
+	</head>
+
+	<body onselectstart='return false'>
+
+		CONTEÚDO DA PÁGINA
+		
+	</body>
+</html>

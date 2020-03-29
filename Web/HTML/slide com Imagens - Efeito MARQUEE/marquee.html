@@ -1,0 +1,23 @@
+Ao colocar o mouse emcima de alguma imagem o slide da uma pausa, ao retirar o mouse de cima continua a movimentar.
+
+Rolagem só funciona no Internet Explorer
+
+<marquee behavior="alternate" scrollamount="5" onMouseOver="this.stop()" onMouseOut="this.start()">
+	&nbsp <img src="slide/img1.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img2.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img3.jpg" alt="imagem de uma flor">
+	&nbsp <img src="slide/img4.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img5.jpg" alt="imagem de uma flor">
+	&nbsp <img src="slide/img6.jpg" alt="imagem de uma flor"> &nbsp
+</marquee>
+
+Rolagem funciona no Internet Explorer e Mozilla
+
+<marquee behavior="alternate" scrollamount="5" onMouseOver="this.setAttribute('scrollamount',0, 0);" onMouseOut="this.setAttribute('scrollamount',6, 0);">
+	&nbsp <img src="slide/img1.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img2.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img3.jpg" alt="imagem de uma flor">
+	&nbsp <img src="slide/img4.jpg" alt="imagem de flores">
+	&nbsp <img src="slide/img5.jpg" alt="imagem de uma flor">
+	&nbsp <img src="slide/img6.jpg" alt="imagem de uma flor"> &nbsp
+</marquee>

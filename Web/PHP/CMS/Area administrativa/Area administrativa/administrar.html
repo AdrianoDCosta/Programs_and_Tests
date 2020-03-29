@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="pagadministrar.css">
+		<title> Area Administrativa </title>
+	</head>
+	<body>
+	
+	<?php
+		include "valida_cookies.php";
+	?>
+	
+		<table>
+			<tr>
+				<td>
+					<p>Area Administrativa</p>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<table>
+			<tr>
+				<td>
+					<form method="POST" action="login.php">
+					login:
+				</td>
+				<td>
+					<input type="text" name="usuario">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Senha:
+				</td>
+				<td>
+					<input type="password" name="senha">
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+					<input type="submit" value="Entrar">
+					</form>
+				</td>
+			</tr>	
+		</table>
+	</body>
+</html>

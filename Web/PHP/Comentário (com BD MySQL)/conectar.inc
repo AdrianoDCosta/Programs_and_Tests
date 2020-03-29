@@ -1,0 +1,6 @@
+<?php
+
+	$conectar = mysql_connect("localhost","adriano","123456") or die ("Erro de Autenticação!");
+	mysql_select_db('noticias',$conectar) or die ("Não foi posivel selecionar o Banco de Dados!");
+	
+?>

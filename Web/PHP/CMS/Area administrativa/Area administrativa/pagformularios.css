@@ -1,0 +1,37 @@
+body
+{
+	margin: 0px 0px 0px 30px;
+}
+
+h3
+{
+	font: small-caps;
+	text-align: center;
+	text-decoration: underline;
+}
+
+table tr td
+{
+	font: small-caps 13px;
+}
+
+/* Apenas para tabela de Exclusão */
+/*Inicio */
+table.tituloforms td
+{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	width: 600;
+	
+}
+
+table.formsadm td
+{
+	text-align: center;
+	font-weight: bold;
+	width: 600;
+	
+}
+
+/* Fim */

@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="pagformularios.css">
+		<title>: : Cadastro de Usuários : :</title>
+	</head>
+	<body>
+		<h3>Cadastro de Usuários - Clientes</h3>
+		<form method="POST" action="cadusucli.php">
+		
+		<table>
+			<tr>
+				<td>
+					<input type="radio" name="pessoa" value="fisica" checked>
+					Pessoa Física:
+				</td>
+				<td>
+					<input type="radio" name="pessoa" value="juridica">
+					Pessoa Juridica:
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Nome: ...................
+				</td>
+				<td>
+					<input type="text" name="nome" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Sobrenome: ............
+				</td>
+				<td>
+					<input type="text" name="sobrenome" size="20">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Empresa: .............
+				</td>
+				<td>
+					<input type="text" name="empresa" size="30">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					CPF/CNPJ: ............
+				</td>
+				<td>
+					<input type="text" name="cpfecnpj" size="15">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					E-mail: .................
+				</td>
+				<td>
+					<input type="text" name="email" size="30">
+				</td>
+			</td>
+			<tr>
+				<td>
+					Telefone: .............
+				</td>
+				<td>
+					<input type="text" name="telefone" size="15">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Endereço: ............
+				
+				</td>
+				<td>
+					<input type="text" name="endereco" size="25">
+					Nº: ..
+					<input type="text" name="numero" size="5">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Bairro: ................
+				</td>
+				<td>
+					<input type="text" name="bairro" size="25">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Cidade: ................
+				</td>
+				<td>
+					<input type="text" name="cidade" size="25">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Estado: ...............
+				</td>
+				<td>
+					<select name="estado">
+							<option value="Minas Gerais" selected>MG
+							<option value="São Paulo">SP
+							<option value="Rio de Janeiro">RJ
+							<option value="AC">AC
+							<option value="Tocantins">TO
+							<option value="amazonas">AM
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Cep: ......................
+				</td>
+				<td>
+					<input type="text" name="cep" size="10">
+				</td>
+				
+				<td align="left">
+					<input type="submit" name="cadastrar" value="Cadastrar">
+			
+					<input type="reset" value="Limpar Dados">
+				</td>
+			</tr>
+			
+		</table>
+		
+	</form>
+	</body>
+</html>
+			
